@@ -1,0 +1,456 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    scroll-behavior: smooth;
+    transition: all .38s ease;
+}
+
+.hero-container {
+    background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url(https://img.freepik.com/free-photo/grilled-meats-rustic-wooden-plate-generated-by-ai_188544-13482.jpg?t=st=1698830297~exp=1698833897~hmac=6973e86c6b141ac4814e1cf0ca5b3e17f0ca310c89c5170e099c7ed37f4e9e14&w=826);
+    height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: black;
+    color: #fff;
+}
+
+.nav {
+    display: inline-flex;
+    margin-left: 220px;
+
+}
+
+.first li{
+    display: inline-flex;
+    padding: 30px 15px;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.dropdown-content {
+     display: none;
+     position: absolute;
+     top: 60px;
+     left: 305px;
+     align-items: center;
+     background-color: rgba(0, 0, 0, 0.30);
+     width: 100px;
+     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+     z-index: 1;
+     border: 1px solid transparent;
+     border-radius: 7px;
+     font-size: 16px;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 6px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    border-bottom: 1px solid gray;
+}
+
+.dropdown-content a:nth-child(3) {
+    border: none;
+}
+
+.dropdown-content a:hover {
+    color: limegreen;
+    display: block;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+
+ 
+.sec li {
+    display: inline-flex;
+    padding: 30px 15px;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.dropdown-content2 {
+    display: none;
+    position: absolute;
+    top: 60px;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.30);
+    width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border: 1px solid transparent;
+    border-radius: 7px;
+    font-size: 16px;
+}
+
+.dropdown-content2 a {
+   color: white;
+   padding: 6px;
+   text-decoration: none;
+   display: block;
+   text-align: left;
+   border-bottom: 1px solid gray;
+}
+
+.dropdown-content2 a:nth-child(3) {
+   border: none;
+}
+
+.dropdown-content2 a:hover {
+   color: limegreen;
+   display: block;
+}
+
+.dropdown2:hover .dropdown-content2 {
+   display: block;
+ }
+
+.nav p {
+     font-size: 30px; 
+     color: goldenrod;
+     padding: 0px 40px;
+}
+
+.nav li:hover {
+    padding: 6px;
+    color: lime;
+    font-size: 18px;
+    
+}
+
+.nav-btn {
+    margin-left: 70px;
+    width: 100px;
+    border: 1px solid transparent;
+    border-radius: 7px;
+    font-size: 28px;
+    background-color: transparent;
+    color: white;
+}
+
+
+
+.hero-section {
+    position: absolute;
+    top: 300px;
+    left: 300px;
+    text-align: center;
+}
+
+.hero-section h1 {
+    font-size: 38px;
+    letter-spacing: 2px;
+}
+
+.hero-btn {
+    margin-top: 20px;
+    background-color: green;
+    color: white;
+    font-size: 18px;
+    padding: 10px;
+    border: 1px solid transparent;
+    border-radius: 12px;
+    width: 20%;
+    margin-left: 10px;
+
+} 
+
+.hero-btn:hover {
+    background-color: limegreen;
+
+}
+
+.dew-background {
+    background-image: url(https://img.freepik.com/premium-photo/photorealistic-fresh-lettuce_1013369-1204.jpg?w=740);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size: 250px;
+    
+}
+
+.lettuce {
+    height: 150px;
+}
+
+
+.section3 {
+    margin-top: 50px;
+}
+
+.nav2 ul {
+    text-align: center;
+    
+}
+
+
+.nav2 li {
+    margin-top: 40px;
+    margin-left: 20px;
+    display: inline-block;
+    padding: 13px;
+    background-color: brown;
+    margin-right: 10px;
+    color: #fff;
+    
+}
+
+.column1 {
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-around;
+    
+}
+
+.column1 img {
+    border: 2px solid transparent;
+    border-radius: 50%;
+    background-size: contain;
+}
+
+.column1 img:hover {
+    height: 200px;
+    width: 250px;
+}
+
+.item1, .item2, .item3, .item4 {
+height: 320px;
+width: 250px;
+border: 1px dotted wheat;
+padding: 16px;
+line-height: 30px;
+box-shadow: 10px 11px 5px -11px rgba(0,0,0,0.75);
+
+}
+
+.item1 h2, .item2 h2, .item3 h2, .item4 h2{
+    font-size: 20px;
+    font-weight: 600;
+    padding-top: 10px;
+
+}
+
+.item1 .fa-star, .item2 .fa-star, .item3 .fa-star, .item4 .fa-star {
+    color: orange;
+    font-size: 18px;
+}
+
+.item-btn {
+    padding: 10px;
+    background-color: brown;
+    color: #fff;
+    border: 1px solid transparent;
+    border-radius: 25px;
+    margin-top: 14px;
+}
+
+.item-btn i {
+    font-size: 20px;
+    padding-right: 4px;
+    
+}
+
+
+.column2 {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.column2 img {
+    border: 2px solid transparent;
+    border-radius: 50%;
+    background-size: contain;
+}
+
+.column2 img:hover {
+    height: 200px;
+    width: 250px;
+}
+
+.item5, .item6, .item7, .item8 {
+height: 320px;
+width: 250px;
+border: 1px dotted wheat;
+padding: 16px;
+line-height: 30px;
+box-shadow: 10px 11px 5px -11px rgba(0,0,0,0.75);
+
+}
+
+.item5 h2, .item6 h2, .item7 h2, .item8 h2{
+    font-size: 20px;
+    font-weight: 600;
+    padding-top: 10px;
+
+}
+
+.item5 .fa-star, .item6 .fa-star, .item7 .fa-star, .item8 .fa-star {
+    color: orange;
+    font-size: 18px;
+}
+
+
+.section4 {
+     margin-top: 100px;
+}
+
+.section4 h1 {
+    font-size: 38px;
+    text-align: center;
+    letter-spacing: 2px;
+
+}
+
+.special {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.special img {
+    border: 2px solid transparent;
+    border-radius: 50%;
+    background-size: contain;
+}
+
+.special img:hover {
+    height: 200px;
+    width: 250px;
+}
+
+.special1, .special2, .special3, .special4 {
+height: 320px;
+width: 250px;
+border: 1px dotted wheat;
+padding: 16px;
+line-height: 30px;
+box-shadow: 10px 11px 5px -11px rgba(0,0,0,0.75);
+
+}
+
+.special1 h2, .special2 h2, .special3 h2, .special4 h2{
+    font-size: 20px;
+    font-weight: 600;
+    padding-top: 10px;
+
+}
+
+.special .fa-star, .special2 .fa-star, .special3 .fa-star, .special4 .fa-star {
+    color: orange;
+    font-size: 18px;
+}
+
+.lettuceimgs {
+    display: flexbox;
+    height: 190px;
+    width: 100%;
+}
+
+.lettuce2 {
+    margin-top: 0;
+    background-image: url(https://img.freepik.com/premium-photo/photorealistic-fresh-lettuce_1013369-1204.jpg?w=740);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 250px;
+    height: 190px;
+}
+
+
+.specials {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+    z-index: 1;
+}
+
+.specials img {
+    border: 2px solid transparent;
+    border-radius: 50%;
+    background-size: contain;
+}
+
+.specials img:hover {
+    height: 200px;
+    width: 250px;
+}
+
+.special5, .special6, .special7, .special8 {
+height: 320px;
+width: 250px;
+border: 1px dotted wheat;
+padding: 16px;
+line-height: 30px;
+box-shadow: 10px 11px 5px -11px rgba(0,0,0,0.75);
+
+}
+
+.special5 h2, .special6 h2, .special7 h2, .special8 h2{
+    font-size: 20px;
+    font-weight: 600;
+    padding-top: 10px;
+
+}
+
+.special5 .fa-star, .special6 .fa-star, .special7 .fa-star, .special8 .fa-star {
+    color: orange;
+    font-size: 18px;
+}
+
+footer {
+    display: flex;
+    background-color: black;
+    height: 300px;
+    color: wheat;
+    margin-top: 50px;
+}
+
+.logo {
+    padding-top: 50px;
+    padding-left: 100px;
+    width: 20%;
+    line-height: 35px;
+}
+
+.row1{
+    padding-top: 50px;
+    padding-left: 0px;
+    width: 20%; 
+    line-height: 35px;
+    
+}
+
+.row2 {
+    padding-top: 80px;
+    padding-left: -10px;
+    width: 20%; 
+    line-height: 35px;
+}
+.row1 li, .row2 li{
+    list-style-type: none;
+}
+.row1 a, .row2 a {
+    text-decoration: none; 
+    list-style-type: none;
+    color: wheat;
+}
+
+.row1 li:hover, .row2 li:hover{
+    text-decoration: underline;
+}
+
+.about {
+    width: 30%;
+    padding-top: 50px;
+    line-height: 30px;
+    text-align: justify;
+    padding-right: 100px;
+}
+
